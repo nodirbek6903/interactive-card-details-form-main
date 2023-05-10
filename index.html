@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="left-card">
+      <div class="cards-old">
+        <img src="images/card-logo.svg" alt="">
+        <div class="malumot">
+          <div class="nomers">
+            <div class="nomer">
+              <span class="num-card">0</span>
+              <span class="num-card">0</span>
+              <span class="num-card">0</span>
+              <span class="num-card">0</span>
+            </div>
+            <div class="nomer">
+              <span class="num-card">0</span>
+              <span class="num-card">0</span>
+              <span class="num-card">0</span>
+              <span class="num-card">0</span>
+            </div>
+            <div class="nomer">
+              <span class="num-card">0</span>
+              <span class="num-card">0</span>
+              <span class="num-card">0</span>
+              <span class="num-card">0</span>
+            </div>
+            <div class="nomer">
+              <span class="num-card">0</span>
+              <span class="num-card">0</span>
+              <span class="num-card">0</span>
+              <span class="num-card">0</span>
+            </div>
+          </div>
+          <div class="name-years">
+            <h4 class="name">Jane Appleseed</h4>
+            <div class="month-year">
+              <h4 class="month">09</h4>/<h4 class="year">00</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cards-orqa">
+        <span class="cvv">000</span>
+      </div>
+    </div>
+    <div class="right-card">
+      <div class="card">
+        <form action="">
+          <div class="name-inp">
+            <label for="holder-name">Cardholder Name</label>
+            <input class="name_inp" id="holder-name" type="text" placeholder="e.g.Jane Appleseed" required>
+          </div>
+          <div class="num-inp">
+            <label for="card-number">Card Number</label>
+            <input class="num_inp" id="card-number" type="text" placeholder="e.g 1234 5678 9123 0000" required>
+          </div>
+          <div class="month-year-cvc-inp">
+            <div class="month-year-inp">
+              <label for="">Exp. Date (MM/YY)
+              </label>
+              <div class="inputs">
+                <input class="month_inp" type="text" placeholder="MM" required>
+                <input class="year_inp" type="text" placeholder="YY" required>
+              </div>
+            </div>
+            <div class="cvc-inp">
+              <label for="cvv">cvc</label>
+              <input class="cvc" id="cvv" type="text" placeholder="e.g.123" required>
+            </div>
+          </div>
+          <div class="form-btn">
+            <button class="sub-btn" type="submit">Confirm</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="thanks-card">
+      <div class="thank-msg">
+        <img src="./images/icon-complete.svg" alt="">
+        <h1>Thank you</h1>
+        <p>We've added your card details</p>
+      </div>
+      <div class="thank-btn">
+        <button class="continue">Continue</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Completed state start -->
+  <!-- 
+  Thank you!
+  We've added your card details
+  Continue -->
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
